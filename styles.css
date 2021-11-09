@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;700&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -10,16 +9,25 @@ body{
 }
 
 .container{
-    width: 900px;
-    height: 400px;
+    width: 300px;
+    height: auto;
 
     background-color: white;
 
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 1.8%;
 }
 
 .container #pageTitle{
     font-size: 2rem;
     font-weight: 700;
+}
+
+.container #newPassword{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+}
+
+.container button{
+    font-size: 1rem;
 }
